@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter Rendez-vous</title>
+    <link rel="stylesheet" href="tableaubord.css">
+</head>
+
+<body>
+    <h1>Ajouter un Rendez-vous</h1>
+    <form>
+        <label for="patient">Patient:</label>
+        <input type="text" id="patient" name="patient" required>
+
+        <label for="date_rdv">Date et Heure:</label>
+        <input type="datetime-local" id="date_rdv" name="date_rdv" required>
+
+        <label for="medecin_rdv">Médecin:</label>
+        <select id="medecin_rdv" name="medecin_rdv">
+            <option value="medecin1">Dr. X</option>
+            <option value="medecin2">Dr. Y</option>
+        </select>
+
+        <button type="submit">Ajouter</button>
+    </form>
+</body>
+
+</html>
